@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public ItemType itemType = ItemType.None;
+    public Config.ItemType itemType = Config.ItemType.None;
 
     public bool CanBePickedUp = false;
 }
