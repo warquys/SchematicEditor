@@ -27,9 +27,8 @@ public class SynapseConvertor : MonoBehaviour
         var reasult = new Dictionary<string, SchematicObjectDataList>();
         foreach (var file in Directory.GetFiles(path, "*.json"))
         {
-            var filePath = Path.Combine(path, file);
-            var unseralised = JsonConvert.DeserializeObject<SchematicObjectDataList>(File.ReadAllText(filePath), new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
-            reasult.Add(file, unseralised);
+            var unseralised = JsonConvert.DeserializeObject<SchematicObjectDataList>(File.ReadAllText(file), new JsonSerializerSettings() { NullValueHandling = NullValueHandling.Ignore });
+            reasult.Add(Path.GetFileNameWithoutExtension(file), unseralised);
         }
         return reasult;
     }
@@ -43,6 +42,7 @@ public class SynapseConvertor : MonoBehaviour
 
         foreach (var schematic in loaded)
         {
+            numberOfObject++;
             Spawn(schematic.Key, schematic.Value);
         }
 
@@ -52,12 +52,13 @@ public class SynapseConvertor : MonoBehaviour
         }
     }
 
-    Vector3 vectorSpawn = new Vector3(100, 0, 0);
+    int numberOfObject = 0;
 
     void Spawn(string name, SchematicObjectDataList schematic)
     {
-        var synSchematic = GameObject.Instantiate(ChematicRef, vectorSpawn, new Quaternion(0,0,0,0));
+        var synSchematic = GameObject.Instantiate(ChematicRef, new Vector3(100, 0, 0) * numberOfObject, new Quaternion(0,0,0,0));
         var schematicInfo = synSchematic.GetComponent<SchematicInfo>();
+        synSchematic.name = name;
         schematicInfo.Name = name;
         schematicInfo.ID = schematic.RootObjectId;
 
@@ -120,8 +121,6 @@ public class SynapseConvertor : MonoBehaviour
                     break;
             }
         }
-
-        vectorSpawn = vectorSpawn + new Vector3(0, 100, 0);
     }
 
     void Convert(GameObject gameObject)
