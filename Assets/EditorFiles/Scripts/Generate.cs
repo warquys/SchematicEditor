@@ -59,6 +59,7 @@ public class Generate : MonoBehaviour
                         Locked = door.Locked,
                         Open = door.Open,
                         UpdateEveryFrame = door.UpdateEveryFrame,
+                        CustomAttributes = objectinfo.customAttributes
                     });
 
                     break;
@@ -70,7 +71,8 @@ public class Generate : MonoBehaviour
                         Position = pos,
                         Rotation = rot,
                         Scale = scale,
-                        TargetType = target.TargetType
+                        TargetType = target.TargetType,
+                        CustomAttributes = objectinfo.customAttributes
                     });
                     break;
 
@@ -81,7 +83,8 @@ public class Generate : MonoBehaviour
                         Position = pos,
                         Rotation = rot,
                         Scale = scale,
-                        UpdateEveryFrame = work.UpdateEveryFrame
+                        UpdateEveryFrame = work.UpdateEveryFrame,
+                        CustomAttributes = objectinfo.customAttributes
                     });
                     break;
 
@@ -93,7 +96,8 @@ public class Generate : MonoBehaviour
                         Rotation = rot,
                         Scale = scale,
                         CanBePickedUp = item.CanBePickedUp,
-                        ItemType = item.itemType
+                        ItemType = item.itemType,
+                        CustomAttributes = objectinfo.customAttributes
                     });
                     break;
 
@@ -107,7 +111,8 @@ public class Generate : MonoBehaviour
                         Color = light.color,
                         LightIntensity = light.intensity,
                         LightRange = light.range,
-                        LightShadows = light.shadow
+                        LightShadows = light.shadow,
+                        CustomAttributes = objectinfo.customAttributes
                     });
                     break;
 
@@ -119,7 +124,8 @@ public class Generate : MonoBehaviour
                         Rotation = rot,
                         Scale = scale,
                         Color = prim.color,
-                        PrimitiveType = prim.PrimitiveType
+                        PrimitiveType = prim.PrimitiveType,
+                        CustomAttributes = objectinfo.customAttributes
                     });
                     break;
             }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class SchematicInfo : MonoBehaviour
 {
@@ -11,3 +12,4 @@ public class SchematicInfo : MonoBehaviour
         transform.rotation = Quaternion.identity;
     }
 }
+
