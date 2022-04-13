@@ -16,6 +16,7 @@ public class Generate : MonoBehaviour
             {
                 Name = info.Name,
                 ID = info.ID,
+                CustomAttributes = info.CustomAttributes
             };
             Debug.Log("Found Schematic " + info.Name);
 
@@ -59,7 +60,7 @@ public class Generate : MonoBehaviour
                         Locked = door.Locked,
                         Open = door.Open,
                         UpdateEveryFrame = door.UpdateEveryFrame,
-                        CustomAttributes = objectinfo.customAttributes
+                        CustomAttributes = objectinfo.CustomAttributes
                     });
 
                     break;
@@ -72,7 +73,7 @@ public class Generate : MonoBehaviour
                         Rotation = rot,
                         Scale = scale,
                         TargetType = target.TargetType,
-                        CustomAttributes = objectinfo.customAttributes
+                        CustomAttributes = objectinfo.CustomAttributes
                     });
                     break;
 
@@ -84,7 +85,7 @@ public class Generate : MonoBehaviour
                         Rotation = rot,
                         Scale = scale,
                         UpdateEveryFrame = work.UpdateEveryFrame,
-                        CustomAttributes = objectinfo.customAttributes
+                        CustomAttributes = objectinfo.CustomAttributes
                     });
                     break;
 
@@ -97,7 +98,7 @@ public class Generate : MonoBehaviour
                         Scale = scale,
                         CanBePickedUp = item.CanBePickedUp,
                         ItemType = item.itemType,
-                        CustomAttributes = objectinfo.customAttributes
+                        CustomAttributes = objectinfo.CustomAttributes
                     });
                     break;
 
@@ -112,7 +113,7 @@ public class Generate : MonoBehaviour
                         LightIntensity = light.intensity,
                         LightRange = light.range,
                         LightShadows = light.shadow,
-                        CustomAttributes = objectinfo.customAttributes
+                        CustomAttributes = objectinfo.CustomAttributes
                     });
                     break;
 
@@ -125,7 +126,7 @@ public class Generate : MonoBehaviour
                         Scale = scale,
                         Color = prim.color,
                         PrimitiveType = prim.PrimitiveType,
-                        CustomAttributes = objectinfo.customAttributes
+                        CustomAttributes = objectinfo.CustomAttributes
                     });
                     break;
             }

@@ -129,6 +129,7 @@ public class SynapseConvertor : MonoBehaviour
         var ptransfor = gameObject.transform;
         var cheamatic = GameObject.Instantiate(ChematicRef, ptransfor.position + vector, ptransfor.rotation);
         cheamatic.name = gameObject.name;
+
         foreach (var childe in gameObject.GetComponentsInChildren<Transform>())
         {
             if (childe.tag == "EditorOnly" || childe == transform)

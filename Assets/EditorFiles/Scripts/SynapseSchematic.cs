@@ -12,7 +12,7 @@ namespace Config
 
         public int ID { get; set; }
         public string Name { get; set; }
-        public Dictionary<string, string> CustomAttributes { get; set; }
+        public List<string> CustomAttributes { get; set; }
 
         public List<PrimitiveConfiguration> PrimitiveObjects { get; set; } = new List<PrimitiveConfiguration>();
         public List<LightSourceConfiguration> LightObjects { get; set; } = new List<LightSourceConfiguration>();
@@ -33,7 +33,7 @@ namespace Config
 
             public SerializedColor Color { get; set; }
 
-            public Dictionary<string, string> CustomAttributes { get; set; }
+            public List<string> CustomAttributes { get; set; }
         }
 
         public class LightSourceConfiguration
@@ -52,7 +52,7 @@ namespace Config
 
             public bool LightShadows { get; set; }
 
-            public Dictionary<string, string> CustomAttributes { get; set; }
+            public List<string> CustomAttributes { get; set; }
         }
 
         public class TargetConfiguration
@@ -65,7 +65,7 @@ namespace Config
 
             public SerializedVector3 Scale { get; set; }
 
-            public Dictionary<string, string> CustomAttributes { get; set; }
+            public List<string> CustomAttributes { get; set; }
         }
 
         public class ItemConfiguration
@@ -80,7 +80,7 @@ namespace Config
 
             public SerializedVector3 Scale { get; set; }
 
-            public Dictionary<string, string> CustomAttributes { get; set; }
+            public List<string> CustomAttributes { get; set; }
         }
 
         public class WorkStationConfiguration
@@ -93,7 +93,7 @@ namespace Config
 
             public bool UpdateEveryFrame { get; set; } = false;
 
-            public Dictionary<string, string> CustomAttributes { get; set; }
+            public List<string> CustomAttributes { get; set; }
         }
 
         public class DoorConfiguration
@@ -112,7 +112,7 @@ namespace Config
 
             public bool UpdateEveryFrame { get; set; } = false;
 
-            public Dictionary<string, string> CustomAttributes { get; set; }
+            public List<string> CustomAttributes { get; set; }
         }
     }
 

@@ -1,8 +1,8 @@
 ﻿[Cursor]
 {
-iD: 1
+iD: 0
 name: Cursor
-customAttributes: 
+customAttributes: ::lcb::::rcb::
 primitiveObjects:
 - primitiveType: Cube
   position:
@@ -22,7 +22,8 @@ primitiveObjects:
     g: 1
     b: 1
     a: 1
-  customAttributes: 
+  customAttributes:
+  - ' Cursor:Center'
 - primitiveType: Cylinder
   position:
     x: 0
@@ -41,7 +42,7 @@ primitiveObjects:
     g: 0
     b: 0
     a: 1
-  customAttributes: 
+  customAttributes: ::lcb::::rcb::
 - primitiveType: Cube
   position:
     x: -0.200000003
@@ -60,7 +61,8 @@ primitiveObjects:
     g: 0
     b: 0
     a: 1
-  customAttributes: 
+  customAttributes:
+  - ' Cursor:X+1'
 - primitiveType: Cylinder
   position:
     x: 0
@@ -79,7 +81,7 @@ primitiveObjects:
     g: 0
     b: 0
     a: 1
-  customAttributes: 
+  customAttributes: ::lcb::::rcb::
 - primitiveType: Cylinder
   position:
     x: 0
@@ -98,7 +100,7 @@ primitiveObjects:
     g: 0
     b: 0
     a: 1
-  customAttributes: 
+  customAttributes: ::lcb::::rcb::
 - primitiveType: Cube
   position:
     x: 0.200000003
@@ -117,7 +119,8 @@ primitiveObjects:
     g: 0
     b: 0
     a: 1
-  customAttributes: 
+  customAttributes:
+  - ' Cursor:X+1'
 - primitiveType: Cube
   position:
     x: -0.75
@@ -136,7 +139,8 @@ primitiveObjects:
     g: 1
     b: 0
     a: 1
-  customAttributes: 
+  customAttributes:
+  - ' Cursor:Y+1'
 - primitiveType: Cube
   position:
     x: 0.75
@@ -155,7 +159,8 @@ primitiveObjects:
     g: 1
     b: 0
     a: 1
-  customAttributes: 
+  customAttributes:
+  - ' Cursor:Y-1'
 - primitiveType: Cube
   position:
     x: 0
@@ -174,7 +179,8 @@ primitiveObjects:
     g: 0
     b: 1
     a: 1
-  customAttributes: 
+  customAttributes:
+  - ' Cursor:Z+1'
 - primitiveType: Cube
   position:
     x: 0
@@ -193,7 +199,8 @@ primitiveObjects:
     g: 0
     b: 1
     a: 1
-  customAttributes: 
+  customAttributes:
+  - ' Cursor:Z-1'
 lightObjects: ::lcb::::rcb::
 targetObjects: ::lcb::::rcb::
 itemObjects: ::lcb::::rcb::

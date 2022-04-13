@@ -22,8 +22,5 @@ public class ObjectInfo : MonoBehaviour
 {
     public ObjectType Type;
 
-    [UDictionary.Split(30, 70)]
-    public CustomAttributes customAttributes;
-    [Serializable]
-    public class CustomAttributes : UDictionary<string, string> { }
+    public List<string> CustomAttributes;
 }
