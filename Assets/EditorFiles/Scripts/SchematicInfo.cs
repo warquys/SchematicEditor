@@ -6,7 +6,7 @@ public class SchematicInfo : MonoBehaviour
 {
     public string Name;
 
-    public int ID;
+    public int ID; 
 
     public List<string> CustomAttributes;
 

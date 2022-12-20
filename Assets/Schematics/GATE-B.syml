@@ -45,7 +45,7 @@ primitiveObjects:
 - primitiveType: Cube
   position:
     x: 0.208800003
-    y: -0.000860000204
+    y: -0.0125800017
     z: -0.00400018692
   rotation:
     x: 0
@@ -64,7 +64,7 @@ primitiveObjects:
 - primitiveType: Cube
   position:
     x: 0.208800003
-    y: -0.0762799978
+    y: -0.0879999995
     z: -0.00400018692
   rotation:
     x: 0
@@ -83,7 +83,7 @@ primitiveObjects:
 - primitiveType: Cube
   position:
     x: 0.208800003
-    y: 0.0814400017
+    y: 0.06972
     z: -0.00400018692
   rotation:
     x: 0
@@ -102,7 +102,7 @@ primitiveObjects:
 - primitiveType: Cube
   position:
     x: 0.159199998
-    y: 0.00254000002
+    y: -0.00918000191
     z: -0.00400018692
   rotation:
     x: 0
@@ -135,443 +135,6 @@ primitiveObjects:
     r: 1
     g: 1
     b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.569524825
-    y: -0.00599683775
-    z: -0.00273323059
-  rotation:
-    x: 335.083527
-    y: 270
-    z: 90
-  scale:
-    x: 0.0180000011
-    y: 0.00300000003
-    z: 0.0149999997
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.554358244
-    y: 0.026652392
-    z: -0.00273323059
-  rotation:
-    x: 335.083527
-    y: 270
-    z: 90
-  scale:
-    x: 0.0180000011
-    y: 0.00300000003
-    z: 0.0149999997
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.556500018
-    y: 0.00779999793
-    z: -0.00272989273
-  rotation:
-    x: 20.0835361
-    y: 270
-    z: 90
-  scale:
-    x: 0.0300000049
-    y: 0.00300000072
-    z: 0.0300000031
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.592686236
-    y: 0.0246097259
-    z: -0.00272989273
-  rotation:
-    x: 335.083527
-    y: 270
-    z: 90
-  scale:
-    x: 0.0180000011
-    y: 0.00300000003
-    z: 0.0599999987
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.502285063
-    y: -0.0538810901
-    z: -0.00273323059
-  rotation:
-    x: 88.7664719
-    y: 89.9999847
-    z: 270
-  scale:
-    x: 0.0180000011
-    y: 0.00300000003
-    z: 0.0150000006
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.538276732
-    y: -0.0546561331
-    z: -0.00273323059
-  rotation:
-    x: 88.7664719
-    y: 89.9999847
-    z: 270
-  scale:
-    x: 0.0180000011
-    y: 0.00300000003
-    z: 0.0150000006
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.520409882
-    y: -0.048270002
-    z: -0.00272989273
-  rotation:
-    x: 43.7663994
-    y: 90
-    z: 270
-  scale:
-    x: 0.030000031
-    y: 0.00300000072
-    z: 0.0300000329
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.519551039
-    y: -0.0881607533
-    z: -0.00272989273
-  rotation:
-    x: 88.7664719
-    y: 89.9999847
-    z: 270
-  scale:
-    x: 0.0180000011
-    y: 0.00300000003
-    z: 0.0600000024
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.490661263
-    y: 0.0280656442
-    z: -0.00273323059
-  rotation:
-    x: 328.27652
-    y: 90
-    z: 270
-  scale:
-    x: 0.0180000085
-    y: 0.00300000003
-    z: 0.015000008
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.471731603
-    y: -0.00255580805
-    z: -0.00273323059
-  rotation:
-    x: 328.27652
-    y: 90
-    z: 270
-  scale:
-    x: 0.0180000085
-    y: 0.00300000003
-    z: 0.015000008
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.486299932
-    y: 0.00959999673
-    z: -0.00272989273
-  rotation:
-    x: 283.276489
-    y: 90
-    z: 270
-  scale:
-    x: 0.0300000254
-    y: 0.00300000072
-    z: 0.0300000291
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.452361345
-    y: 0.0305802226
-    z: -0.00272989273
-  rotation:
-    x: 328.27652
-    y: 90
-    z: 270
-  scale:
-    x: 0.0180000085
-    y: 0.00300000003
-    z: 0.0600000322
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.639600158
-    y: -0.0747000054
-    z: -0.00299978256
-  rotation:
-    x: 30.8147545
-    y: 270
-    z: 90
-  scale:
-    x: 0.050999999
-    y: 0.00126300007
-    z: 0.053009402
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.521099985
-    y: 0.126300007
-    z: -0.00299978256
-  rotation:
-    x: 0
-    y: 270
-    z: 90
-  scale:
-    x: 0.0566868223
-    y: 0.00126300007
-    z: 0.0510000028
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.402839899
-    y: -0.0768000036
-    z: -0.00299978256
-  rotation:
-    x: 328.652985
-    y: 270
-    z: 90
-  scale:
-    x: 0.0510000065
-    y: 0.00126300007
-    z: 0.0552329943
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.64199996
-    y: -0.0762000084
-    z: -0.00360012054
-  rotation:
-    x: 30.8147545
-    y: 270
-    z: 90
-  scale:
-    x: 0.0690000057
-    y: 3.00000011E-05
-    z: 0.0690000206
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.3998999
-    y: -0.0786000043
-    z: -0.00360012054
-  rotation:
-    x: 328.652985
-    y: 270
-    z: 90
-  scale:
-    x: 0.0690000057
-    y: 3.00000047E-05
-    z: 0.0690000057
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
-  position:
-    x: -0.521099985
-    y: -0.00900000334
-    z: -0.00390005112
-  rotation:
-    x: 0
-    y: 270
-    z: 90
-  scale:
-    x: 0.120000005
-    y: 0.000300000014
-    z: 0.120000005
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
-  position:
-    x: -0.521099985
-    y: -0.00900000334
-    z: -0.00305986404
-  rotation:
-    x: 0
-    y: 270
-    z: 90
-  scale:
-    x: 0.150000006
-    y: 0.000900000043
-    z: 0.150000006
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
-  position:
-    x: -0.521099985
-    y: -0.00900000334
-    z: -0.00360012054
-  rotation:
-    x: 0
-    y: 270
-    z: 90
-  scale:
-    x: 0.228
-    y: 0.000300000014
-    z: 0.228
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
-  position:
-    x: -0.521099985
-    y: -0.00900000334
-    z: -0.00360012054
-  rotation:
-    x: 0
-    y: 270
-    z: 90
-  scale:
-    x: 0.248999998
-    y: 3.00000011E-05
-    z: 0.248999998
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
-  position:
-    x: -0.521099985
-    y: -0.00900000334
-    z: -0.00299978256
-  rotation:
-    x: 0
-    y: 270
-    z: 90
-  scale:
-    x: 0.300000012
-    y: 0.000600000028
-    z: 0.300000012
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
-  position:
-    x: -0.521099985
-    y: 0.129600003
-    z: -0.00360012054
-  rotation:
-    x: 0
-    y: 270
-    z: 90
-  scale:
-    x: 0.0690000057
-    y: 3.00000011E-05
-    z: 0.0690000057
-  color:
-    r: 0
-    g: 0
-    b: 0
     a: 1
   customAttributes: ::lcb::::rcb::
 - primitiveType: Cube
@@ -1281,7 +844,7 @@ primitiveObjects:
   position:
     x: 0.467700005
     y: -0.00248000259
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1300,7 +863,7 @@ primitiveObjects:
   position:
     x: 0.499520004
     y: 0.0764000043
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1319,7 +882,7 @@ primitiveObjects:
   position:
     x: 0.499520004
     y: -0.0813800022
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1338,7 +901,7 @@ primitiveObjects:
   position:
     x: 0.526419997
     y: 0.0746000037
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1357,7 +920,7 @@ primitiveObjects:
   position:
     x: 0.535579979
     y: 0.0683000013
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1376,7 +939,7 @@ primitiveObjects:
   position:
     x: 0.543720007
     y: 0.0584000014
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1395,7 +958,7 @@ primitiveObjects:
   position:
     x: 0.546499968
     y: 0.0506799929
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1414,7 +977,7 @@ primitiveObjects:
   position:
     x: 0.547100008
     y: 0.0360799991
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1433,7 +996,7 @@ primitiveObjects:
   position:
     x: 0.544860005
     y: 0.025539998
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1452,7 +1015,7 @@ primitiveObjects:
   position:
     x: 0.53836
     y: 0.012459998
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1471,7 +1034,7 @@ primitiveObjects:
   position:
     x: 0.515389025
     y: -0.00127204473
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1490,7 +1053,7 @@ primitiveObjects:
   position:
     x: 0.549679995
     y: -0.024720002
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1509,7 +1072,7 @@ primitiveObjects:
   position:
     x: 0.553359985
     y: -0.0372200012
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1528,7 +1091,7 @@ primitiveObjects:
   position:
     x: 0.543299973
     y: -0.0140000032
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1547,7 +1110,7 @@ primitiveObjects:
   position:
     x: 0.553680003
     y: -0.049279999
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1566,7 +1129,7 @@ primitiveObjects:
   position:
     x: 0.550700009
     y: -0.0623800047
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1585,7 +1148,7 @@ primitiveObjects:
   position:
     x: 0.546039999
     y: -0.070280008
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1604,7 +1167,7 @@ primitiveObjects:
   position:
     x: 0.538519979
     y: -0.075880006
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1623,7 +1186,7 @@ primitiveObjects:
   position:
     x: 0.527199984
     y: -0.0805400014
-    z: -0.00400018692
+    z: -0.00899982452
   rotation:
     x: 0
     y: 180
@@ -1636,6 +1199,443 @@ primitiveObjects:
     r: 1
     g: 1
     b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.601424813
+    y: -0.0169968344
+    z: -0.021999836
+  rotation:
+    x: 335.083527
+    y: 270
+    z: 90
+  scale:
+    x: 0.0180000011
+    y: 0.00999999978
+    z: 0.0149999997
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.586258233
+    y: 0.0156523958
+    z: -0.021999836
+  rotation:
+    x: 335.083527
+    y: 270
+    z: 90
+  scale:
+    x: 0.0180000011
+    y: 0.00999999978
+    z: 0.0149999997
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.588400006
+    y: -0.00319999829
+    z: -0.0209999084
+  rotation:
+    x: 20.0835361
+    y: 270
+    z: 90
+  scale:
+    x: 0.0300000049
+    y: 0.00999999978
+    z: 0.0300000031
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.624586225
+    y: 0.0136097297
+    z: -0.0191001892
+  rotation:
+    x: 335.083527
+    y: 270
+    z: 90
+  scale:
+    x: 0.0180000011
+    y: 0.00999999978
+    z: 0.0599999987
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.534185052
+    y: -0.0648810863
+    z: -0.021999836
+  rotation:
+    x: 88.7664719
+    y: 89.9999847
+    z: 270
+  scale:
+    x: 0.0180000011
+    y: 0.00999999978
+    z: 0.0150000006
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.570176721
+    y: -0.0656561255
+    z: -0.021999836
+  rotation:
+    x: 88.7664719
+    y: 89.9999847
+    z: 270
+  scale:
+    x: 0.0180000011
+    y: 0.00999999978
+    z: 0.0150000006
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.552309871
+    y: -0.0592699982
+    z: -0.0209999084
+  rotation:
+    x: 43.7663994
+    y: 90
+    z: 270
+  scale:
+    x: 0.030000031
+    y: 0.00999999978
+    z: 0.0300000329
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.551451027
+    y: -0.0991607457
+    z: -0.0191001892
+  rotation:
+    x: 88.7664719
+    y: 89.9999847
+    z: 270
+  scale:
+    x: 0.0180000011
+    y: 0.00999999978
+    z: 0.0600000024
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.522561252
+    y: 0.017065648
+    z: -0.021999836
+  rotation:
+    x: 328.27652
+    y: 90
+    z: 270
+  scale:
+    x: 0.0180000085
+    y: 0.00999999978
+    z: 0.015000008
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.503631592
+    y: -0.0135558043
+    z: -0.021999836
+  rotation:
+    x: 328.27652
+    y: 90
+    z: 270
+  scale:
+    x: 0.0180000085
+    y: 0.00999999978
+    z: 0.015000008
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.518199921
+    y: -0.00139999948
+    z: -0.0209999084
+  rotation:
+    x: 283.276489
+    y: 90
+    z: 270
+  scale:
+    x: 0.0300000254
+    y: 0.00999999978
+    z: 0.0300000291
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.484261334
+    y: 0.0195802264
+    z: -0.0191001892
+  rotation:
+    x: 328.27652
+    y: 90
+    z: 270
+  scale:
+    x: 0.0180000085
+    y: 0.00999999978
+    z: 0.0600000322
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.671500087
+    y: -0.0857000053
+    z: -0.0279998779
+  rotation:
+    x: 30.8147545
+    y: 270
+    z: 90
+  scale:
+    x: 0.050999999
+    y: 0.00420999993
+    z: 0.053009402
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.552999973
+    y: 0.115300015
+    z: -0.0279998779
+  rotation:
+    x: 0
+    y: 270
+    z: 90
+  scale:
+    x: 0.0566868223
+    y: 0.00420999993
+    z: 0.0510000028
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.434739888
+    y: -0.0877999961
+    z: -0.0279998779
+  rotation:
+    x: 328.652985
+    y: 270
+    z: 90
+  scale:
+    x: 0.0510000065
+    y: 0.00421000039
+    z: 0.0552329943
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.673899949
+    y: -0.0872000009
+    z: -0.021999836
+  rotation:
+    x: 30.8147545
+    y: 270
+    z: 90
+  scale:
+    x: 0.0690000057
+    y: 9.99999975E-05
+    z: 0.0690000206
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.431799889
+    y: -0.0895999968
+    z: -0.021999836
+  rotation:
+    x: 328.652985
+    y: 270
+    z: 90
+  scale:
+    x: 0.0690000057
+    y: 0.000100000019
+    z: 0.0690000057
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -0.552999973
+    y: -0.0199999996
+    z: -0.0229997635
+  rotation:
+    x: 0
+    y: 270
+    z: 90
+  scale:
+    x: 0.120000005
+    y: 0.00100000005
+    z: 0.120000005
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -0.552999973
+    y: -0.0199999996
+    z: -0.0201997757
+  rotation:
+    x: 0
+    y: 270
+    z: 90
+  scale:
+    x: 0.150000006
+    y: 0.00300000003
+    z: 0.150000006
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -0.552999973
+    y: -0.0199999996
+    z: -0.021999836
+  rotation:
+    x: 0
+    y: 270
+    z: 90
+  scale:
+    x: 0.228
+    y: 0.00100000005
+    z: 0.228
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -0.552999973
+    y: -0.0199999996
+    z: -0.021999836
+  rotation:
+    x: 0
+    y: 270
+    z: 90
+  scale:
+    x: 0.248999998
+    y: 9.99999975E-05
+    z: 0.248999998
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -0.552999973
+    y: -0.0199999996
+    z: -0.0170001984
+  rotation:
+    x: 0
+    y: 270
+    z: 90
+  scale:
+    x: 0.300000012
+    y: 0.00300000003
+    z: 0.300000012
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.552999973
+    y: 0.118600011
+    z: -0.021999836
+  rotation:
+    x: 0
+    y: 270
+    z: 90
+  scale:
+    x: 0.0690000057
+    y: 9.99999975E-05
+    z: 0.0690000057
+  color:
+    r: 0
+    g: 0
+    b: 0
     a: 1
   customAttributes: ::lcb::::rcb::
 lightObjects: ::lcb::::rcb::

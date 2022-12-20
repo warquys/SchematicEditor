@@ -1,0 +1,190 @@
+﻿[UTR-Head]
+{
+iD: 116
+name: UTR-Head
+customAttributes:
+- UTR-Head
+- pos:1.05
+- lim:338.5:24.3
+primitiveObjects:
+- primitiveType: Cube
+  position:
+    x: -1.40800095
+    y: -0.130999804
+    z: 0.102999926
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.299819291
+    y: -0.29155001
+    z: -0.649741828
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -1.34500122
+    y: -0.309999943
+    z: 0.102999926
+  rotation:
+    x: 0
+    y: 0
+    z: 17.1396923
+  scale:
+    x: -0.0689224526
+    y: -0.575029552
+    z: -0.0840849429
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -1.54700089
+    y: -0.4599998
+    z: 0.0190000534
+  rotation:
+    x: 0
+    y: 0
+    z: 349.22049
+  scale:
+    x: -0.0689224601
+    y: -0.655180752
+    z: -0.0840849429
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -1.31900215
+    y: -0.0579998493
+    z: 0.425000072
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: -0.0500000007
+    y: -0.0100000016
+    z: -0.0500000156
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -1.38700104
+    y: -0.178999901
+    z: 0.425000072
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: -0.0500000007
+    y: -0.0100000016
+    z: -0.0500000156
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -1.38700104
+    y: -0.0920000076
+    z: 0.425000072
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: -0.0500000007
+    y: -0.0100000016
+    z: -0.0500000156
+  color:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -1.48700142
+    y: -0.0920000076
+    z: 0.425000072
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: -0.100000001
+    y: -0.0100000016
+    z: -0.100000031
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -1.48700142
+    y: -0.0920000076
+    z: 0.445000052
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: -0.0799999982
+    y: -0.0100000016
+    z: -0.0800000131
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+lightObjects:
+- position:
+    x: -1.38735199
+    y: -0.0879998207
+    z: 0.438272834
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  color:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  lightIntensity: 0.5
+  lightRange: 3
+  lightShadows: false
+  customAttributes:
+  - Light
+targetObjects: ::lcb::::rcb::
+itemObjects: ::lcb::::rcb::
+workStationObjects: ::lcb::::rcb::
+doorObjects: ::lcb::::rcb::
+}
+

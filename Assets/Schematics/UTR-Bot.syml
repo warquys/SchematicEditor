@@ -1,0 +1,129 @@
+﻿[UTR-Bot]
+{
+iD: 117
+name: UTR-Bot
+customAttributes:
+- UTR-Bot
+- pos:-0.8
+primitiveObjects:
+- primitiveType: Cube
+  position:
+    x: -0.90700531
+    y: -0.0149999857
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -1.17159998
+    y: -0.800000012
+    z: -0.730687976
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.962001801
+    y: 0.578000069
+    z: 0.103000164
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.615970016
+    y: -1
+    z: -0.473120004
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.2689991
+    y: -0.286000013
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.231625304
+    y: -0.408081889
+    z: -1.03384995
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.278999329
+    y: -0.180000007
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 22.9250565
+  scale:
+    x: -0.315334678
+    y: -0.408081889
+    z: -1.06104016
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -1.56200027
+    y: -0.286000013
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.231625304
+    y: -0.408081889
+    z: -1.03384995
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -1.5720005
+    y: -0.180000007
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 180
+    z: 22.9250011
+  scale:
+    x: -0.315334797
+    y: -0.408081889
+    z: -1.06104064
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+lightObjects: ::lcb::::rcb::
+targetObjects: ::lcb::::rcb::
+itemObjects: ::lcb::::rcb::
+workStationObjects: ::lcb::::rcb::
+doorObjects: ::lcb::::rcb::
+}
+

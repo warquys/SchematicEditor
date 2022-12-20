@@ -1,0 +1,258 @@
+﻿[UTR-Body]
+{
+iD: 115
+name: UTR-Body
+customAttributes:
+- UTR-Body
+primitiveObjects:
+- primitiveType: Capsule
+  position:
+    x: -0.895000458
+    y: 0.957999945
+    z: 0.0190000534
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.284654468
+    y: -0.2624681
+    z: -0.31180495
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -0.71559906
+    y: 0.960000038
+    z: 0.0120000839
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.0606761277
+    y: -0.0606761277
+    z: -0.0606761277
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cylinder
+  position:
+    x: -0.718000412
+    y: 1.19200015
+    z: 0.0160000324
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.00729637919
+    y: -0.291855186
+    z: -0.00729637919
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.619876862
+    y: 0.727874517
+    z: 0.0160002708
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.861787498
+    y: -0.375
+    z: -0.375
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.0520019531
+    y: 0.542999983
+    z: 0.0160002708
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -0.386054903
+    y: -0.604875028
+    z: -0.375
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.90700531
+    y: 0.0635999441
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: -1.17159998
+    y: -0.800000012
+    z: -0.730687976
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.697402954
+    y: 0.286800146
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 350.507996
+  scale:
+    x: -0.930496275
+    y: -0.800000012
+    z: -0.557083786
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -1.37200165
+    y: 0.0959999561
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 43.9109268
+  scale:
+    x: -0.822690964
+    y: -0.456752628
+    z: -0.730687976
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -1.51300049
+    y: 0.177000046
+    z: 0.0337753296
+  rotation:
+    x: 0
+    y: 0
+    z: 357.217468
+  scale:
+    x: -0.615442812
+    y: -0.456752568
+    z: -0.730687976
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.591001511
+    y: 0.977999926
+    z: 0.0160002708
+  rotation:
+    x: 0
+    y: 0
+    z: 350.189697
+  scale:
+    x: -0.154613286
+    y: -0.37500003
+    z: -0.245393917
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.164001465
+    y: 0.94900012
+    z: 0.136300087
+  rotation:
+    x: 0
+    y: 0
+    z: 10.1029606
+  scale:
+    x: -0.0788409859
+    y: -0.37499997
+    z: -0.0781456977
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Cube
+  position:
+    x: -0.164001465
+    y: 0.94900012
+    z: -0.0668997765
+  rotation:
+    x: 0
+    y: 0
+    z: 10.1029606
+  scale:
+    x: -0.0788409859
+    y: -0.37499997
+    z: -0.0781456977
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
+  customAttributes: ::lcb::::rcb::
+lightObjects: ::lcb::::rcb::
+targetObjects: ::lcb::::rcb::
+itemObjects:
+- itemType: GunLogicer
+  canBePickedUp: false
+  position:
+    x: -0.061000824
+    y: 0.364000082
+    z: -0.0550000668
+  rotation:
+    x: 0
+    y: 90
+    z: 0
+  scale:
+    x: 1.00000024
+    y: 1
+    z: 1.00000024
+  customAttributes:
+  - item
+workStationObjects: ::lcb::::rcb::
+doorObjects: ::lcb::::rcb::
+}
+

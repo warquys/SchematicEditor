@@ -1,0 +1,89 @@
+﻿[TESLA WARNING]
+{
+iD: 112
+name: TESLA WARNING
+customAttributes: ::lcb::::rcb::
+primitiveObjects:
+- primitiveType: Plane
+  position:
+    x: 0
+    y: 0
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.5
+    y: 1
+    z: 0.119999997
+  color:
+    r: 1
+    g: 1
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Plane
+  position:
+    x: 0
+    y: 0.00999999978
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.0878750011
+    y: 1
+    z: 0.119999997
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Plane
+  position:
+    x: 1.57700002
+    y: 0.00999999978
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.0809450001
+    y: 1
+    z: 0.119999997
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+- primitiveType: Plane
+  position:
+    x: -1.49100006
+    y: 0.00999999978
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.0878750011
+    y: 1
+    z: 0.119999997
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  customAttributes: ::lcb::::rcb::
+lightObjects: ::lcb::::rcb::
+targetObjects: ::lcb::::rcb::
+itemObjects: ::lcb::::rcb::
+workStationObjects: ::lcb::::rcb::
+doorObjects: ::lcb::::rcb::
+}
+

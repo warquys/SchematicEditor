@@ -10,8 +10,12 @@ public class Primitive : MonoBehaviour
 
     public void OnValidate()
     {
-        if (gameObject.scene.name == null || gameObject.scene.name == gameObject.name) return;
+        try
+        {
+            if (gameObject.scene.name == null || gameObject.scene.name == gameObject.name) return;
 
-        GetComponent<Renderer>().material.color = color;
+            GetComponent<Renderer>().material.color = color;
+        }
+        catch(System.Exception _) { }
     }
 }
