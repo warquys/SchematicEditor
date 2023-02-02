@@ -10,40 +10,57 @@ namespace Config
         [NonSerialized]
         internal bool reload = true;
 
-        public int ID { get; set; }
         public string Name { get; set; }
+        public uint Id { get; set; }
         public List<string> CustomAttributes { get; set; }
 
-        public List<PrimitiveConfiguration> PrimitiveObjects { get; set; } = new List<PrimitiveConfiguration>();
-        public List<LightSourceConfiguration> LightObjects { get; set; } = new List<LightSourceConfiguration>();
-        public List<TargetConfiguration> TargetObjects { get; set; } = new List<TargetConfiguration>();
-        public List<ItemConfiguration> ItemObjects { get; set; } = new List<ItemConfiguration>();
-        public List<WorkStationConfiguration> WorkStationObjects { get; set; } = new List<WorkStationConfiguration>();
-        public List<DoorConfiguration> DoorObjects { get; set; } = new List<DoorConfiguration>();
+        public List<PrimitiveConfiguration> Primitives { get; set; } = new List<PrimitiveConfiguration>();
+        public List<LightSourceConfiguration> Lights { get; set; } = new List<LightSourceConfiguration>();
+        public List<TargetConfiguration> Targets { get; set; } = new List<TargetConfiguration>();
+        public List<ItemConfiguration> Items { get; set; } = new List<ItemConfiguration>();
+        public List<SimpleUpdateConfig> WorkStations { get; set; } = new List<SimpleUpdateConfig>();
+        public List<DoorConfiguration> Doors { get; set; } = new List<DoorConfiguration>();
+        public List<CustomObjectConfiguration> CustomObjects { get; set; } = new List<CustomObjectConfiguration>();
+        public List<RagdollConfiguration> Ragdolls { get; set; } = new List<RagdollConfiguration>();
+        public List<DummyConfiguration> Dummies { get; set; } = new List<DummyConfiguration>();
+        public List<SimpleUpdateConfig> Generators { get; set; } = new List<SimpleUpdateConfig>();
+        public List<LockerConfiguration> Lockers { get; set; } = new List<LockerConfiguration>();
+        public List<OldGrenadeConfiguration> OldGrenades { get; set; } = new List<OldGrenadeConfiguration>();
 
-        public class PrimitiveConfiguration
+        public abstract class DefaultConfig
+        {
+            public SerializedVector3 Position { get; set; } = Vector3.zero;
+
+            public SerializedVector3 Rotation { get; set; } = Vector3.zero;
+
+            public SerializedVector3 Scale { get; set; } = Vector3.one;
+
+            public List<string> CustomAttributes { get; set; } = new List<string>();
+        }
+
+        public class SimpleUpdateConfig : DefaultConfig
+        {
+            public bool Update { get; set; }
+
+            public float UpdateFrequency { get; set; }
+        }
+
+        public class OldGrenadeConfiguration : SimpleUpdateConfig
+        {
+            public bool IsFlash { get; set; }
+        }
+
+        public class PrimitiveConfiguration : DefaultConfig
         {
             public PrimitiveType PrimitiveType { get; set; }
 
-            public SerializedVector3 Position { get; set; }
-
-            public SerializedVector3 Rotation { get; set; }
-
-            public SerializedVector3 Scale { get; set; }
+            public bool Physics { get; set; }
 
             public SerializedColor Color { get; set; }
-
-            public List<string> CustomAttributes { get; set; }
         }
 
-        public class LightSourceConfiguration
+        public class LightSourceConfiguration : DefaultConfig
         {
-            public SerializedVector3 Position { get; set; }
-
-            public SerializedVector3 Rotation { get; set; }
-
-            public SerializedVector3 Scale { get; set; }
-
             public SerializedColor Color { get; set; }
 
             public float LightIntensity { get; set; }
@@ -51,69 +68,89 @@ namespace Config
             public float LightRange { get; set; }
 
             public bool LightShadows { get; set; }
-
-            public List<string> CustomAttributes { get; set; }
         }
 
-        public class TargetConfiguration
+        public class TargetConfiguration : DefaultConfig
         {
             public TargetType TargetType { get; set; }
-
-            public SerializedVector3 Position { get; set; }
-
-            public SerializedVector3 Rotation { get; set; }
-
-            public SerializedVector3 Scale { get; set; }
-
-            public List<string> CustomAttributes { get; set; }
         }
 
-        public class ItemConfiguration
+        public class ItemConfiguration : DefaultConfig
         {
             public ItemType ItemType { get; set; }
 
-            public bool CanBePickedUp { get; set; }
+            public bool CanBePickedUp { get; set; } = true;
 
-            public SerializedVector3 Position { get; set; }
+            public bool Physics { get; set; } = true;
 
-            public SerializedVector3 Rotation { get; set; }
+            public float Durabillity { get; set; } = 0;
 
-            public SerializedVector3 Scale { get; set; }
-
-            public List<string> CustomAttributes { get; set; }
+            public uint Attachments { get; set; } = 0;
         }
 
-        public class WorkStationConfiguration
-        {
-            public SerializedVector3 Position { get; set; }
-
-            public SerializedVector3 Rotation { get; set; }
-
-            public SerializedVector3 Scale { get; set; }
-
-            public bool UpdateEveryFrame { get; set; } = false;
-
-            public List<string> CustomAttributes { get; set; }
-        }
-
-        public class DoorConfiguration
+        public class DoorConfiguration : SimpleUpdateConfig
         {
             public SpawnableDoorType DoorType { get; set; }
-
-            public SerializedVector3 Position { get; set; }
-
-            public SerializedVector3 Rotation { get; set; }
-
-            public SerializedVector3 Scale { get; set; }
 
             public bool Open { get; set; }
 
             public bool Locked { get; set; }
 
-            public bool UpdateEveryFrame { get; set; } = false;
+            public float Health { get; set; } = -1f;
 
-            public List<string> CustomAttributes { get; set; }
+            public bool UnDestroyable { get; set; } = false;
         }
+
+        public class CustomObjectConfiguration : DefaultConfig
+        {
+            public int ID { get; set; }
+        }
+
+        public class RagdollConfiguration : DefaultConfig
+        {
+            public string Nick { get; set; }
+
+            public RoleTypeId RoleType { get; set; }
+
+            public DamageType DamageType { get; set; }
+        }
+
+        public class DummyConfiguration : DefaultConfig
+        {
+            public RoleTypeId Role { get; set; }
+
+            public ItemType HeldItem { get; set; }
+
+            public string Name { get; set; }
+
+            public string Badge { get; set; }
+
+            public string BadgeColor { get; set; }
+        }
+
+        public class LockerConfiguration : SimpleUpdateConfig
+        {
+            public LockerType LockerType { get; set; }
+
+            public List<LockerChamber> Chambers { get; set; } = new List<LockerChamber>();
+
+            public bool DeleteDefaultItems { get; set; }
+
+            public class LockerChamber
+            {
+                public List<ItemType> Items { get; set; } = new List<ItemType>();
+            }
+        }
+    }
+
+    public enum LockerType
+    {
+        StandardLocker,
+        LargeGunLocker,
+        RifleRackLocker,
+        ScpPedestal,
+        MedkitWallCabinet,
+        AdrenalineWallCabinet
     }
 
     public enum ItemType
@@ -167,6 +204,42 @@ namespace Config
         SCP244b
     }
 
+    public enum DamageType
+    {
+        Recontained,
+        Warhead,
+        Scp049,
+        Unknown,
+        Asphyxiated,
+        Bleeding,
+        Falldown,
+        PocketDecay,
+        Decontamination,
+        Poisoned,
+        Scp207,
+        SeveredHands,
+        MicroHID,
+        Tesla,
+        Explosion,
+        Scp096,
+        Scp173,
+        Scp939,
+        Zombie,
+        BulletWounds,
+        Crushed,
+        UsedAs106Bait,
+        FriendlyFireDetector,
+        Hypothermia,
+
+        Universal,
+        CustomReason,
+        Disruptor,
+        Firearm,
+        MicroHid,
+        Recontainment,
+        Scp018,
+        Scp,
+    }
 
     public enum SpawnableDoorType
     {
@@ -180,6 +253,33 @@ namespace Config
         Sport,
         DBoy,
         Binary
+    }
+
+    public enum RoleTypeId : sbyte
+    {
+        None = -1,
+        Scp173,
+        ClassD,
+        Spectator,
+        Scp106,
+        NtfSpecialist,
+        Scp049,
+        Scientist,
+        Scp079,
+        ChaosConscript,
+        Scp096,
+        Scp0492,
+        NtfSergeant,
+        NtfCaptain,
+        NtfPrivate,
+        Tutorial,
+        FacilityGuard,
+        Scp939,
+        CustomRole,
+        ChaosRifleman,
+        ChaosRepressor,
+        ChaosMarauder,
+        Overwatch
     }
 
     [Serializable]

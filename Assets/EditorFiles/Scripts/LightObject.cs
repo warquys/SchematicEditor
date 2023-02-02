@@ -7,8 +7,11 @@ public class LightObject : MonoBehaviour
     public Light lightcomp;
 
     public Color color;
+
     public float intensity;
+
     public float range;
+
     public bool shadow;
 
     public void OnValidate()

@@ -8,14 +8,21 @@ public class Primitive : MonoBehaviour
 
     public Color color = Color.white;
 
+    public bool Physics = false;
+
     public void OnValidate()
     {
+        if (gameObject.scene.name == null || gameObject.scene.name == gameObject.name) return;
+
         try
         {
-            if (gameObject.scene.name == null || gameObject.scene.name == gameObject.name) return;
-
             GetComponent<Renderer>().material.color = color;
+
         }
-        catch(System.Exception _) { }
+        catch
+        {
+
+        }
+       
     }
 }

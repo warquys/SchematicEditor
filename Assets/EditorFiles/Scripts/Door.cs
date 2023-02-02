@@ -9,5 +9,5 @@ public class Door : MonoBehaviour
 
     public bool Locked = false;
 
-    public bool UpdateEveryFrame = false;
+    public bool UnDestroyable = false;
 }

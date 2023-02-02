@@ -15,7 +15,13 @@ public enum ObjectType
     Target,
     Door,
     Workstation,
-    Item
+    Item, 
+    Ragdoll,
+    Lockers,
+    Generators,
+    SynapseCustomObject,
+    OldGrenades,
+    Dummies
 }
 
 public class ObjectInfo : MonoBehaviour
@@ -23,4 +29,10 @@ public class ObjectInfo : MonoBehaviour
     public ObjectType Type;
 
     public List<string> CustomAttributes;
+
+    public float Health;
+    
+    public bool UpdateEveryFrame;
+
+    public float UpdateFrequency;
 }

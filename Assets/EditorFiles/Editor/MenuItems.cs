@@ -94,3 +94,25 @@ public class ItemEditor : Editor
         EditorGUILayout.HelpBox("Please don't change ItemType except this is a KeyCard and you want to change the KeyCard Type", MessageType.Info);
     }
 }
+
+[CustomEditor(typeof(Dummie))]
+public class DummieEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+
+        EditorGUILayout.HelpBox("Please don't change RoleType", MessageType.Info);
+    }
+}
+
+[CustomEditor(typeof(Ragdoll))]
+public class RagdollEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+
+        EditorGUILayout.HelpBox("Please don't change RoleType", MessageType.Info);
+    }
+}

@@ -93,13 +93,6 @@ namespace Config
                         lastBracket = i1;
                 content = content.Substring(firstBracket + 1, lastBracket - firstBracket - 1);
 
-                content = content
-                        .Replace("::lcb::", "[")
-                        .Replace("::rcb::", "]")
-                        .Replace("::lsb::", "{")
-                        .Replace("::rsb::", "}")
-                    ;
-
                 sections.Add(identifier, new ConfigSection(identifier, content));
             }
 
@@ -197,12 +190,7 @@ namespace Config
 
         public string Serialize()
         {
-            return "[" + Section + "]" + "\n" + "{\n" + Content
-                .Replace("[", "::lcb::")
-                .Replace("]", "::rcb::")
-                .Replace("{", "::lsb::")
-                .Replace("}", "::rsb::")
-                .Trim() + "\n}\n";
+            return "[" + Section + "]" + "\n" + Content.Trim() + "\n";
         }
     }
 
