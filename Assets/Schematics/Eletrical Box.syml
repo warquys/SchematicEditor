@@ -1,0 +1,157 @@
+﻿[Eletrical Box]
+name: Eletrical Box
+id: 107
+customAttributes: []
+primitives:
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -99.9657974
+    y: -0.289299995
+    z: -0.0448999405
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1.01763284
+    y: 0.294748038
+    z: 0.487945318
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -99.9822006
+    y: 0.285999954
+    z: -0.0425999165
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1.05048883
+    y: 0.861904085
+    z: 0.538262069
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -99.9658966
+    y: 0.747699916
+    z: -0.0264999866
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1.22261858
+    y: 0.0761802122
+    z: 0.614898384
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -99.6931992
+    y: 0.284310043
+    z: 0.24029994
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.519761801
+    y: 0.833703935
+    z: 0.0553590767
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -100.234001
+    y: 0.284310043
+    z: 0.24029994
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.519761801
+    y: 0.833703935
+    z: 0.0553590767
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -100.042664
+    y: 0.280129969
+    z: 0.273180008
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.0696563348
+    y: 0.0699546114
+    z: 0.0384715274
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -99.8796997
+    y: 0.280129969
+    z: 0.273180008
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.0696563348
+    y: 0.0699546114
+    z: 0.0384715274
+  customAttributes: []
+lights: []
+targets: []
+items: []
+workStations: []
+doors: []
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
+

@@ -1,10 +1,15 @@
 ﻿[TESLA WARNING]
-{
-iD: 112
 name: TESLA WARNING
-customAttributes: ::lcb::::rcb::
-primitiveObjects:
+id: 112
+customAttributes: []
+primitives:
 - primitiveType: Plane
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 0
+    a: 1
   position:
     x: 0
     y: 0
@@ -17,13 +22,14 @@ primitiveObjects:
     x: 0.5
     y: 1
     z: 0.119999997
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
   color:
-    r: 1
-    g: 1
+    r: 0
+    g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Plane
   position:
     x: 0
     y: 0.00999999978
@@ -33,18 +39,19 @@ primitiveObjects:
     y: 0
     z: 0
   scale:
-    x: 0.0878750011
+    x: 0.0799999982
     y: 1
     z: 0.119999997
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
   color:
     r: 0
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Plane
   position:
-    x: 1.57700002
+    x: 1.53100002
     y: 0.00999999978
     z: 0
   rotation:
@@ -52,16 +59,17 @@ primitiveObjects:
     y: 0
     z: 0
   scale:
-    x: 0.0809450001
+    x: 0.0799999982
     y: 1
     z: 0.119999997
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
   color:
     r: 0
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Plane
   position:
     x: -1.49100006
     y: 0.00999999978
@@ -71,19 +79,19 @@ primitiveObjects:
     y: 0
     z: 0
   scale:
-    x: 0.0878750011
+    x: 0.0799999982
     y: 1
     z: 0.119999997
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-lightObjects: ::lcb::::rcb::
-targetObjects: ::lcb::::rcb::
-itemObjects: ::lcb::::rcb::
-workStationObjects: ::lcb::::rcb::
-doorObjects: ::lcb::::rcb::
-}
+  customAttributes: []
+lights: []
+targets: []
+items: []
+workStations: []
+doors: []
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
 

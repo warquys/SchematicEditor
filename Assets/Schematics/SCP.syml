@@ -1,10 +1,15 @@
 ﻿[SCP]
-{
-iD: 105
 name: SCP
-customAttributes: ::lcb::::rcb::
-primitiveObjects:
+id: 105
+customAttributes: []
+primitives:
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: 0.0100104809
     y: 0.00199985504
@@ -17,13 +22,14 @@ primitiveObjects:
     x: 0.0600000024
     y: 0.00999999978
     z: 0.0500000007
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 1
     g: 1
     b: 1
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: 0.11884141
     y: 0.00199985504
@@ -36,13 +42,14 @@ primitiveObjects:
     x: 0.0600000024
     y: 0.00999999978
     z: 0.0500000007
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: 0.0559999943
     y: 0.000999927521
@@ -55,13 +62,14 @@ primitiveObjects:
     x: 0.0999999866
     y: 0.00999999978
     z: 0.0999999866
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 0
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: 0.112032413
     y: -0.000899791718
@@ -74,13 +82,14 @@ primitiveObjects:
     x: 0.0600000024
     y: 0.00999999978
     z: 0.200000003
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: -0.149603605
     y: 0.00199985504
@@ -93,13 +102,14 @@ primitiveObjects:
     x: 0.0600000024
     y: 0.00999999978
     z: 0.0500000045
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 1
     g: 1
     b: 1
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: -0.152187109
     y: 0.00199985504
@@ -112,13 +122,14 @@ primitiveObjects:
     x: 0.0600000024
     y: 0.00999999978
     z: 0.0500000045
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: -0.130899906
     y: 0.000999927521
@@ -131,13 +142,14 @@ primitiveObjects:
     x: 0.100000098
     y: 0.00999999978
     z: 0.100000098
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 0
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: -0.263869286
     y: -0.000899791718
@@ -150,13 +162,14 @@ primitiveObjects:
     x: 0.0600000024
     y: 0.00999999978
     z: 0.200000018
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: 0.123552084
     y: 0.00199985504
@@ -169,13 +182,14 @@ primitiveObjects:
     x: 0.0600000247
     y: 0.00999999978
     z: 0.0500000231
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 1
     g: 1
     b: 1
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: 0.0214805603
     y: 0.00199985504
@@ -188,13 +202,14 @@ primitiveObjects:
     x: 0.0600000247
     y: 0.00999999978
     z: 0.0500000231
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: 0.0620000362
     y: 0.000999927521
@@ -207,13 +222,14 @@ primitiveObjects:
     x: 0.100000091
     y: 0.00999999978
     z: 0.100000091
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 0
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: 0.131934166
     y: -0.000899791718
@@ -226,13 +242,14 @@ primitiveObjects:
     x: 0.0600000247
     y: 0.00999999978
     z: 0.200000092
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: -0.219000101
     y: 0.0100002289
@@ -245,13 +262,14 @@ primitiveObjects:
     x: 0.170000017
     y: 0.00420999993
     z: 0.176697999
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 1
     g: 1
     b: 1
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: 0.450999975
     y: 0.0100002289
@@ -264,13 +282,14 @@ primitiveObjects:
     x: 0.188956067
     y: 0.00420999993
     z: 0.170000002
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 1
     g: 1
     b: 1
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: -0.226000071
     y: 0.0100002289
@@ -283,13 +302,14 @@ primitiveObjects:
     x: 0.170000002
     y: 0.00420999993
     z: 0.184109986
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: -0.223999977
     y: 0.00199985504
@@ -302,13 +322,14 @@ primitiveObjects:
     x: 0.230000049
     y: 9.99999975E-05
     z: 0.230000049
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 0
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: -0.231999874
     y: 0.00199985504
@@ -321,13 +342,14 @@ primitiveObjects:
     x: 0.230000004
     y: 9.99999975E-05
     z: 0.230000004
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: 0
     y: 0.00299978256
@@ -340,13 +362,14 @@ primitiveObjects:
     x: 0.400000006
     y: 0.00100000005
     z: 0.400000006
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: 0
     y: 0.000199794769
@@ -359,13 +382,14 @@ primitiveObjects:
     x: 0.5
     y: 0.00300000003
     z: 0.5
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: 0
     y: 0.00199985504
@@ -378,13 +402,14 @@ primitiveObjects:
     x: 0.75999999
     y: 0.00100000005
     z: 0.75999999
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: 0
     y: 0.00199985504
@@ -397,13 +422,14 @@ primitiveObjects:
     x: 0.829999983
     y: 9.99999975E-05
     z: 0.829999983
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: 0
     y: -0.00299978256
@@ -416,13 +442,14 @@ primitiveObjects:
     x: 1
     y: 0.00300000003
     z: 1
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: 0.462000012
     y: 0.00199985504
@@ -435,16 +462,16 @@ primitiveObjects:
     x: 0.230000004
     y: 9.99999975E-05
     z: 0.230000004
-  color:
-    r: 0
-    g: 0
-    b: 0
-    a: 1
-  customAttributes: ::lcb::::rcb::
-lightObjects: ::lcb::::rcb::
-targetObjects: ::lcb::::rcb::
-itemObjects: ::lcb::::rcb::
-workStationObjects: ::lcb::::rcb::
-doorObjects: ::lcb::::rcb::
-}
+  customAttributes: []
+lights: []
+targets: []
+items: []
+workStations: []
+doors: []
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
 

@@ -1,13 +1,18 @@
 ﻿[UTR-Head]
-{
-iD: 116
 name: UTR-Head
+id: 116
 customAttributes:
 - UTR-Head
 - pos:1.05
 - lim:338.5:24.3
-primitiveObjects:
+primitives:
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0.509803951
+    g: 0.454901963
+    b: 0.454901963
+    a: 1
   position:
     x: -1.40800095
     y: -0.130999804
@@ -20,13 +25,14 @@ primitiveObjects:
     x: -0.299819291
     y: -0.29155001
     z: -0.649741828
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 0.509803951
     g: 0.454901963
     b: 0.454901963
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: -1.34500122
     y: -0.309999943
@@ -39,13 +45,14 @@ primitiveObjects:
     x: -0.0689224526
     y: -0.575029552
     z: -0.0840849429
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
     r: 0.509803951
     g: 0.454901963
     b: 0.454901963
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: -1.54700089
     y: -0.4599998
@@ -58,13 +65,14 @@ primitiveObjects:
     x: -0.0689224601
     y: -0.655180752
     z: -0.0840849429
-  color:
-    r: 0.509803951
-    g: 0.454901963
-    b: 0.454901963
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: -1.31900215
     y: -0.0579998493
@@ -77,13 +85,14 @@ primitiveObjects:
     x: -0.0500000007
     y: -0.0100000016
     z: -0.0500000156
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
   color:
     r: 1
     g: 1
     b: 1
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
   position:
     x: -1.38700104
     y: -0.178999901
@@ -96,13 +105,14 @@ primitiveObjects:
     x: -0.0500000007
     y: -0.0100000016
     z: -0.0500000156
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
   color:
     r: 1
-    g: 1
-    b: 1
+    g: 0
+    b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
   position:
     x: -1.38700104
     y: -0.0920000076
@@ -115,13 +125,14 @@ primitiveObjects:
     x: -0.0500000007
     y: -0.0100000016
     z: -0.0500000156
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
   color:
     r: 1
-    g: 0
-    b: 0
+    g: 1
+    b: 1
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
   position:
     x: -1.48700142
     y: -0.0920000076
@@ -134,13 +145,14 @@ primitiveObjects:
     x: -0.100000001
     y: -0.0100000016
     z: -0.100000031
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
-  customAttributes: ::lcb::::rcb::
+  customAttributes: []
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: -1.48700142
     y: -0.0920000076
@@ -153,14 +165,17 @@ primitiveObjects:
     x: -0.0799999982
     y: -0.0100000016
     z: -0.0800000131
-  color:
-    r: 0
+  customAttributes: []
+lights:
+- color:
+    r: 1
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-lightObjects:
-- position:
+  lightIntensity: 0.5
+  lightRange: 3
+  lightShadows: false
+  position:
     x: -1.38735199
     y: -0.0879998207
     z: 0.438272834
@@ -172,19 +187,16 @@ lightObjects:
     x: 1
     y: 1
     z: 1
-  color:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
-  lightIntensity: 0.5
-  lightRange: 3
-  lightShadows: false
   customAttributes:
   - Light
-targetObjects: ::lcb::::rcb::
-itemObjects: ::lcb::::rcb::
-workStationObjects: ::lcb::::rcb::
-doorObjects: ::lcb::::rcb::
-}
+targets: []
+items: []
+workStations: []
+doors: []
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
 

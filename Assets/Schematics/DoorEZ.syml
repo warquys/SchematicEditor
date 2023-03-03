@@ -1,15 +1,20 @@
 ﻿[DoorEZ]
-{
-iD: 5
 name: DoorEZ
-customAttributes: ::lcb::::rcb::
-primitiveObjects: ::lcb::::rcb::
-lightObjects: ::lcb::::rcb::
-targetObjects: ::lcb::::rcb::
-itemObjects: ::lcb::::rcb::
-workStationObjects: ::lcb::::rcb::
-doorObjects:
+id: 5
+customAttributes: []
+primitives: []
+lights: []
+targets: []
+items: []
+workStations: []
+doors:
 - doorType: EZ
+  open: false
+  locked: false
+  health: 0
+  unDestroyable: false
+  update: false
+  updateFrequency: 0
   position:
     x: 0
     y: 0
@@ -22,9 +27,11 @@ doorObjects:
     x: 1
     y: 1
     z: 1
-  open: false
-  locked: false
-  updateEveryFrame: false
-  customAttributes: ::lcb::::rcb::
-}
+  customAttributes: []
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
 

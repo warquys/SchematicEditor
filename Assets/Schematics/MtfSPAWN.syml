@@ -1,0 +1,3025 @@
+﻿[MtfSPAWN]
+name: MtfSPAWN
+id: 2000
+customAttributes: []
+primitives:
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 6.25544167
+    y: -2.96464014
+    z: -34.6269989
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1.51429999
+    z: 2.82329988
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.693045616
+    z: -7.60395813
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -3.57000017
+    y: 2.75999999
+    z: -37.2450027
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.666333318
+    y: 0.270245135
+    z: 0.0842665061
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -3.9514122
+    y: -4.97100019
+    z: -36.0957184
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 5.24624109
+    y: 1
+    z: 2.36980009
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.75
+    y: -4.97100019
+    z: -17.5599976
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 2
+    y: 1
+    z: 4.0012002
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.482352942
+    g: 0.482352942
+    b: 0.482352942
+    a: 1
+  position:
+    x: 5.97599983
+    y: 0
+    z: -17.8899994
+  rotation:
+    x: 0
+    y: 0
+    z: 90
+  scale:
+    x: 1.00000024
+    y: 1.00000024
+    z: 4.09520006
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.48113209
+    g: 0.48113209
+    b: 0.48113209
+    a: 1
+  position:
+    x: -3.81999993
+    y: 1.18900001
+    z: -37.2200012
+  rotation:
+    x: 4.26886836E-05
+    y: 270.000061
+    z: 270
+  scale:
+    x: 1.31970024
+    y: 1.00000024
+    z: 2.00000048
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.482352942
+    g: 0.482352942
+    b: 0.482352942
+    a: 1
+  position:
+    x: -3.81999993
+    y: 1.59000003
+    z: 2.36000061
+  rotation:
+    x: -4.78113252E-05
+    y: 90
+    z: 270
+  scale:
+    x: 1.38890088
+    y: 1
+    z: 2
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.482352942
+    g: 0.482352942
+    b: 0.482352942
+    a: 1
+  position:
+    x: -13.7200003
+    y: 0
+    z: -16.9179993
+  rotation:
+    x: 0
+    y: 0
+    z: 270
+  scale:
+    x: 1.00000024
+    y: 1.00000024
+    z: 4.09520006
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.801886797
+    g: 0.801886797
+    b: 0.801886797
+    a: 1
+  position:
+    x: 1.85999966
+    y: 6.76999998
+    z: -17.5599976
+  rotation:
+    x: 0
+    y: 180
+    z: 195.000076
+  scale:
+    x: 1.04516006
+    y: 0.99999994
+    z: 4.0012002
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.870000005
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.819999933
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.930000067
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.870000005
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.0500000007
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.1029549
+    y: 2.70371914
+    z: -16.7681465
+  rotation:
+    x: 324.665985
+    y: 5.02884102
+    z: 261.348694
+  scale:
+    x: 0.180000052
+    y: 0.0100000026
+    z: 0.150000006
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.138855
+    y: 2.41337538
+    z: -16.5583572
+  rotation:
+    x: 324.665985
+    y: 5.02884102
+    z: 261.348694
+  scale:
+    x: 0.180000052
+    y: 0.0100000026
+    z: 0.150000006
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.1572495
+    y: 2.52741933
+    z: -16.7120132
+  rotation:
+    x: 281.69516
+    y: 36.6782799
+    z: 232.744232
+  scale:
+    x: 0.299999982
+    y: 0.0100000026
+    z: 0.300000012
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.2159996
+    y: 2.78900003
+    z: -16.3730011
+  rotation:
+    x: 324.073181
+    y: 341.575409
+    z: 275.138855
+  scale:
+    x: 0.180000052
+    y: 0.0100000035
+    z: 0.600000024
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.1459312
+    y: 2.3561461
+    z: -17.5156441
+  rotation:
+    x: 332.02597
+    y: 176.234558
+    z: 97.9869156
+  scale:
+    x: 0.180000037
+    y: 0.0100000026
+    z: 0.150000036
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.1070004
+    y: 2.671
+    z: -17.3454933
+  rotation:
+    x: 332.02597
+    y: 176.234558
+    z: 97.9869156
+  scale:
+    x: 0.180000037
+    y: 0.0100000026
+    z: 0.150000036
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.1619997
+    y: 2.48900008
+    z: -17.3776932
+  rotation:
+    x: 16.6633492
+    y: 182.120987
+    z: 97.3593216
+  scale:
+    x: 0.30000031
+    y: 0.0100000026
+    z: 0.30000028
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.2060003
+    y: 2.69899988
+    z: -17.7470016
+  rotation:
+    x: 330.998993
+    y: 192.136566
+    z: 90.3640442
+  scale:
+    x: 0.179999977
+    y: 0.00999999978
+    z: 0.599999845
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.1769848
+    y: 3.66724539
+    z: -17.0220413
+  rotation:
+    x: 277.180847
+    y: 101.068542
+    z: 169.016144
+  scale:
+    x: 0.51000005
+    y: 0.00421000039
+    z: 0.530094028
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.4119844
+    y: 1.66124535
+    z: -15.8540192
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 0.566868365
+    y: 0.00421000086
+    z: 0.51000011
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.4419842
+    y: 1.63324535
+    z: -18.2040176
+  rotation:
+    x: 331.028473
+    y: 3.92544413
+    z: 261.936829
+  scale:
+    x: 0.51000011
+    y: 0.00421000132
+    z: 0.552329957
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.2622814
+    y: 3.70547962
+    z: -17.0233078
+  rotation:
+    x: 277.180847
+    y: 101.068542
+    z: 169.016144
+  scale:
+    x: 0.690000176
+    y: 0.000100000005
+    z: 0.690000117
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.493
+    y: 1.62100005
+    z: -18.2341461
+  rotation:
+    x: 331.028473
+    y: 3.92544413
+    z: 261.936829
+  scale:
+    x: 0.690000296
+    y: 0.000100000019
+    z: 0.689999938
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.21
+    y: 2.30699992
+    z: -17.0323105
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 1.20000017
+    y: 0.00100000005
+    z: 1.20000017
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.3120003
+    y: 2.31900001
+    z: -17.0323105
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 1.50000024
+    y: 0.00300000072
+    z: 1.50000024
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.349
+    y: 2.32399988
+    z: -17.0323105
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 2.28000021
+    y: 0.00100000005
+    z: 2.27999997
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.4870157
+    y: 2.33975458
+    z: -17.0323105
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 2.49000025
+    y: 0.000100000019
+    z: 2.49000025
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.4949999
+    y: 2.34100008
+    z: -17.0323105
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 3.00000048
+    y: 0.00200000009
+    z: 3.00000048
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.5156107
+    y: 1.65667558
+    z: -15.8252792
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 0.690000057
+    y: 0.000100000019
+    z: 0.690000057
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: 5.96299839
+    y: -0.870000005
+    z: -0.510002136
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299839
+    y: -0.819999933
+    z: -0.510002136
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299839
+    y: -0.930000067
+    z: -0.510002136
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299839
+    y: -0.870000005
+    z: -0.510002136
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.0500000007
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: 5.96299839
+    y: 1.50999999
+    z: -17.2900009
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299839
+    y: 1.55999994
+    z: -17.2900009
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299839
+    y: 1.45000005
+    z: -17.2900009
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299839
+    y: 1.50999999
+    z: -17.2900009
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.0500000007
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: 5.96299934
+    y: -0.870000005
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299934
+    y: -0.819999933
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299934
+    y: -0.930000067
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.96299934
+    y: -0.870000005
+    z: -33.840004
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.0500000007
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -2.29469299
+    y: 2.75365329
+    z: -37.2170029
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.316495866
+    y: 1.16856277
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -2.632617
+    y: 2.30175352
+    z: -37.2170029
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.696880639
+    y: 0.264965236
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -2.632617
+    y: 3.20509481
+    z: -37.2170029
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.696880639
+    y: -0.264965236
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -2.632617
+    y: 2.77312708
+    z: -37.2170029
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.696880639
+    y: -0.264965236
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -4.67651272
+    y: 2.75510979
+    z: -37.1549988
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.314122379
+    y: 1.20069695
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -4.49300003
+    y: 3.10299993
+    z: -37.1549988
+  rotation:
+    x: 0
+    y: 0
+    z: 43.1441956
+  scale:
+    x: 0.291710943
+    y: 0.397560656
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -5.50535202
+    y: 2.75510979
+    z: -37.1549988
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.314122379
+    y: 1.20069695
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -5.33900023
+    y: 3.10899997
+    z: -37.1549988
+  rotation:
+    x: 0
+    y: 0
+    z: 43.1441956
+  scale:
+    x: 0.291710943
+    y: 0.397560656
+    z: 0.00800000038
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.3900003
+    y: 2.32800007
+    z: -17.0323105
+  rotation:
+    x: 300.197998
+    y: 12.2667742
+    z: 255.879272
+  scale:
+    x: 2.49000025
+    y: 0.000100000019
+    z: 2.49000025
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -10.4086237
+    y: -0.870000005
+    z: 2.29789352
+  rotation:
+    x: 90
+    y: 94.9333801
+    z: 0
+  scale:
+    x: 0.200000048
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -10.4086237
+    y: -0.819999933
+    z: 2.29789352
+  rotation:
+    x: 90
+    y: 94.9333801
+    z: 0
+  scale:
+    x: 0.200000048
+    y: 0.295000017
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.693045616
+    z: -12.4899979
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.693045616
+    z: -26.1039658
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.693045616
+    z: -21.5
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.693045616
+    z: -30.9899979
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.693045616
+    z: -3
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: 5.98999977
+    y: -0.693045616
+    z: -30.9899979
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: 5.98999882
+    y: -0.693045616
+    z: -26.1039658
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: 5.98999882
+    y: -0.693045616
+    z: -10.8800011
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: 5.98999882
+    y: -0.693045616
+    z: -3.38800049
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: 5.98999882
+    y: -0.693045616
+    z: -7.99196243
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: 5.98999882
+    y: -0.693045616
+    z: -23.5
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 12.3324804
+    z: 1
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -10.4086237
+    y: -0.930000067
+    z: 2.29789352
+  rotation:
+    x: 90
+    y: 94.9333801
+    z: 0
+  scale:
+    x: 0.200000048
+    y: 0.295000017
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.801886797
+    g: 0.801886797
+    b: 0.801886797
+    a: 1
+  position:
+    x: -3.50999999
+    y: 7.6500001
+    z: -17.5599976
+  rotation:
+    x: 0
+    y: 180
+    z: 180.000107
+  scale:
+    x: 0.58890003
+    y: 1
+    z: 4.0012002
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.801886797
+    g: 0.801886797
+    b: 0.801886797
+    a: 1
+  position:
+    x: -9.75
+    y: 6.58999968
+    z: -17.5599976
+  rotation:
+    x: 0
+    y: 180
+    z: 165.000137
+  scale:
+    x: 1.13012004
+    y: 1.00000048
+    z: 4.00120211
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.801886797
+    g: 0.801886797
+    b: 0.801886797
+    a: 1
+  position:
+    x: 3.81000042
+    y: 5.63999939
+    z: -17.5599976
+  rotation:
+    x: 0
+    y: 180
+    z: 210.000046
+  scale:
+    x: 0.807009935
+    y: 1.00000024
+    z: 4.0012002
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 0.801886797
+    g: 0.801886797
+    b: 0.801886797
+    a: 1
+  position:
+    x: -11.0500002
+    y: 5.83999968
+    z: -17.5599976
+  rotation:
+    x: 0
+    y: 180
+    z: 150.000168
+  scale:
+    x: 0.830604255
+    y: 1
+    z: 4.0012002
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -3.9514122
+    y: -4.21999979
+    z: -35.3499985
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 4.23779631
+    y: 1
+    z: 0.847287774
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.98199654
+    y: -2.58999991
+    z: -13.0579987
+  rotation:
+    x: 0
+    y: 270.000061
+    z: 0
+  scale:
+    x: 1
+    y: 4.78119993
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.103773594
+    g: 0.103773594
+    b: 0.103773594
+    a: 1
+  position:
+    x: 6
+    y: -0.848999977
+    z: -17.4199982
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 7.73589993
+    y: 0.389840007
+    z: 0.609690011
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.75000286
+    y: -4.93300009
+    z: -21.1419983
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 0.313989997
+    y: 0.498278588
+    z: 0.239069998
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.75000286
+    y: -0.833999872
+    z: -21.1419983
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 0.313989997
+    y: 0.498278588
+    z: 0.239069998
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.75000191
+    y: -3.91400003
+    z: -19.4589996
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 119.999886
+  scale:
+    x: 0.313989967
+    y: 4.08853197
+    z: 0.239069998
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.245283008
+    g: 0.131007478
+    b: 0.0914026275
+    a: 1
+  position:
+    x: 5.75000191
+    y: -1.82299995
+    z: -19.4580002
+  rotation:
+    x: 1.70754731E-06
+    y: 269.999939
+    z: 59.9999466
+  scale:
+    x: 0.313990057
+    y: 4.08853197
+    z: 0.239070028
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.75
+    y: -3.10400009
+    z: -17.7889977
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 0.408136547
+    y: 4.08853197
+    z: 0.239069998
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.75000095
+    y: -2.89699984
+    z: -18.1419983
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 0.313989997
+    y: 0.680875897
+    z: 0.239069998
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0.180392161
+    g: 0.180392161
+    b: 0.180392161
+    a: 1
+  position:
+    x: 6
+    y: -2.89400005
+    z: -17.5477066
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 0.255425006
+    y: 2.28158641
+    z: 0.5
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0.180392161
+    g: 0.180392161
+    b: 0.180392161
+    a: 1
+  position:
+    x: 6
+    y: -2.8900001
+    z: -17.2922897
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 0.255425006
+    y: 2.28158641
+    z: 0.5
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.179245293
+    g: 0.179245293
+    b: 0.179245293
+    a: 1
+  position:
+    x: 6
+    y: -2.88999987
+    z: -19.4529991
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 3.74985027
+    y: 4.56317282
+    z: 0.5
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.180392161
+    g: 0.180392161
+    b: 0.180392161
+    a: 1
+  position:
+    x: 6
+    y: -2.88999987
+    z: -15.423996
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 0
+  scale:
+    x: 3.74985027
+    y: 4.56317282
+    z: 0.5
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 6.03100014
+    y: -0.375
+    z: -17.5499992
+  rotation:
+    x: -0.000170754705
+    y: 269.999939
+    z: 0
+  scale:
+    x: 8.56354141
+    y: 0.429351598
+    z: 0.353346407
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.76599979
+    y: -0.375
+    z: -17.4529991
+  rotation:
+    x: -0.000170754705
+    y: 269.999939
+    z: 0
+  scale:
+    x: 2.71101594
+    y: 0.429351598
+    z: 0.353346407
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 6.22899818
+    y: -0.375
+    z: -14.8880005
+  rotation:
+    x: 0
+    y: 289.999969
+    z: 0
+  scale:
+    x: 2.71101594
+    y: 0.429351598
+    z: 0.353346407
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 6.24000168
+    y: -0.379999876
+    z: -19.9899979
+  rotation:
+    x: 0
+    y: 249.999954
+    z: 0
+  scale:
+    x: 2.71101665
+    y: 0.429351598
+    z: 0.353346497
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.0377358198
+    g: 0.0377358198
+    b: 0.0377358198
+    a: 1
+  position:
+    x: 5.84500027
+    y: -0.737999916
+    z: -17.428997
+  rotation:
+    x: 14.9998159
+    y: 269.999939
+    z: 0
+  scale:
+    x: 7.90164328
+    y: 0.429351598
+    z: 0.353346407
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.74999714
+    y: -0.845949411
+    z: -13.7059479
+  rotation:
+    x: -1.33402134E-08
+    y: 269.999939
+    z: 180.43515
+  scale:
+    x: 0.313990086
+    y: 0.498278856
+    z: 0.239070028
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.74999714
+    y: -4.94483185
+    z: -13.6748199
+  rotation:
+    x: -1.33402134E-08
+    y: 269.999939
+    z: 180.43515
+  scale:
+    x: 0.313990086
+    y: 0.498278856
+    z: 0.239070028
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.74999809
+    y: -1.87300014
+    z: -15.3740005
+  rotation:
+    x: -1.70754731E-06
+    y: 269.999939
+    z: 300.434967
+  scale:
+    x: 0.313989967
+    y: 4.08853149
+    z: 0.239069998
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.245283008
+    g: 0.131007478
+    b: 0.0914026275
+    a: 1
+  position:
+    x: 5.74999809
+    y: -3.96865225
+    z: -15.3662872
+  rotation:
+    x: 0
+    y: 269.999939
+    z: 240.435135
+  scale:
+    x: 0.313990086
+    y: 4.08853292
+    z: 0.239069998
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.75
+    y: -3.09399986
+    z: -17.0419998
+  rotation:
+    x: -1.33402134E-08
+    y: 269.999939
+    z: 180.43515
+  scale:
+    x: 0.408136725
+    y: 4.08853483
+    z: 0.239070028
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0.247058824
+    g: 0.13333334
+    b: 0.0941176489
+    a: 1
+  position:
+    x: 5.74999905
+    y: -2.90499997
+    z: -16.7109985
+  rotation:
+    x: -1.33402134E-08
+    y: 269.999939
+    z: 180.43515
+  scale:
+    x: 0.313990086
+    y: 0.680876195
+    z: 0.239070028
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: 5.98000336
+    y: -2.58999991
+    z: -21.7799988
+  rotation:
+    x: 0
+    y: 270.000061
+    z: 0
+  scale:
+    x: 1
+    y: 4.78119993
+    z: 1
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -10.3762188
+    y: -4.47100019
+    z: -10.288826
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 6.99340773
+    y: 1
+    z: 0.669579983
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -7.05000019
+    y: -3.57999992
+    z: -4.33000183
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.608950019
+    y: 2.8987999
+    z: 13.1398449
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -10.4086237
+    y: -0.870000005
+    z: 2.29789352
+  rotation:
+    x: 90
+    y: 94.9333801
+    z: 0
+  scale:
+    x: 0.0500000119
+    y: 0.310000092
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.8689996
+    z: -23.8500023
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.818999529
+    z: -23.8500023
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.928999662
+    z: -23.8500023
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.8689996
+    z: -23.8500023
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.0500000007
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.870000005
+    z: -5.34000015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.819999933
+    z: -5.34000015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.930000067
+    z: -5.34000015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.870000005
+    z: -5.34000015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.0500000007
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -3.30748701
+    y: 7.63999987
+    z: -5.81000137
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.25752115
+    y: 7.64186954
+    z: -5.81000137
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.295000046
+    z: 0.0500000119
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.36744642
+    y: 7.63775349
+    z: -5.81000137
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.295000046
+    z: 0.0500000119
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.30748701
+    y: 7.63999987
+    z: -5.81000137
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.0500000082
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.870000005
+    z: -10.1500015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.819999933
+    z: -10.1500015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.930000067
+    z: -10.1500015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.200000003
+    y: 0.295000046
+    z: 0.0500000194
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.7200003
+    y: -0.870000005
+    z: -10.1500015
+  rotation:
+    x: 90
+    y: 0
+    z: 0
+  scale:
+    x: 0.0500000007
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -3.30748701
+    y: 7.63986158
+    z: -29.6699982
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.25752115
+    y: 7.64173126
+    z: -29.6699982
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.295000046
+    z: 0.0500000119
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.36744642
+    y: 7.6376152
+    z: -29.6699982
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.295000046
+    z: 0.0500000119
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.30748701
+    y: 7.63986158
+    z: -29.6699982
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.0500000082
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 1
+    g: 0.769830048
+    b: 0.25
+    a: 1
+  position:
+    x: -3.30748701
+    y: 7.63999987
+    z: -17.9899979
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.300000072
+    z: 0.300000072
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.25752115
+    y: 7.64186954
+    z: -17.9899979
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.295000046
+    z: 0.0500000119
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.36744642
+    y: 7.63775349
+    z: -17.9899979
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.200000033
+    y: 0.295000046
+    z: 0.0500000119
+  customAttributes: []
+- primitiveType: Capsule
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -3.30748701
+    y: 7.63999987
+    z: -17.9899979
+  rotation:
+    x: 2.14541483
+    y: 270
+    z: 270
+  scale:
+    x: 0.0500000082
+    y: 0.310000062
+    z: 0.320000023
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.2095385
+    y: 1.84171486
+    z: -17.2188377
+  rotation:
+    x: 82.5923386
+    y: 288.004364
+    z: 197.863678
+  scale:
+    x: 0.180000052
+    y: 0.0100000007
+    z: 0.15000008
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.2250004
+    y: 1.90999997
+    z: -17.0410004
+  rotation:
+    x: 40.023735
+    y: 341.057404
+    z: 247.323471
+  scale:
+    x: 0.30000028
+    y: 0.0100000016
+    z: 0.300000221
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  position:
+    x: -13.323
+    y: 1.528
+    z: -17.026001
+  rotation:
+    x: 73.6062469
+    y: 278.012177
+    z: 188.055222
+  scale:
+    x: 0.180000141
+    y: 0.0100000026
+    z: 0.600000501
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -5.51000023
+    y: -4.91000032
+    z: -28.1699982
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1.53910005
+    y: 1
+    z: 0.0480874591
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -13.2080002
+    y: 1.85599995
+    z: -16.8580017
+  rotation:
+    x: 82.5923386
+    y: 288.004364
+    z: 197.863678
+  scale:
+    x: 0.180000052
+    y: 0.0100000007
+    z: 0.15000008
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -5.51000023
+    y: -4.88000011
+    z: -25.2900009
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1.53910005
+    y: 1
+    z: 0.0480874591
+  customAttributes: []
+- primitiveType: Plane
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  position:
+    x: -5.51000023
+    y: -4.93000031
+    z: -31.1699982
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1.53910005
+    y: 1
+    z: 0.0480874591
+  customAttributes: []
+lights:
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: -13.5200005
+    y: -0.870000005
+    z: -33.840004
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: 5.68500042
+    y: -0.870000005
+    z: -0.510002136
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: 5.76000023
+    y: 1.50999999
+    z: -17.2900009
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: 5.71000004
+    y: -0.870000005
+    z: -33.840004
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: -10.4258327
+    y: -0.870000005
+    z: 2.09864044
+  rotation:
+    x: 0
+    y: 94.933403
+    z: 0
+  scale:
+    x: 1.00000024
+    y: 1
+    z: 1.00000024
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: -13.5200005
+    y: -0.8689996
+    z: -23.8500023
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: -13.5200005
+    y: -0.870000005
+    z: -5.34000015
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 20
+  lightShadows: false
+  position:
+    x: -3.30000019
+    y: 7.44013834
+    z: -5.81000137
+  rotation:
+    x: 0
+    y: 0
+    z: 272.145416
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 14
+  lightShadows: false
+  position:
+    x: -13.5200005
+    y: -0.870000005
+    z: -10.1500015
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 20
+  lightShadows: false
+  position:
+    x: -3.30000019
+    y: 7.44000006
+    z: -29.6699982
+  rotation:
+    x: 0
+    y: 0
+    z: 272.145416
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- color:
+    r: 0.405660391
+    g: 0.282693446
+    b: 0.0822801739
+    a: 1
+  lightIntensity: 5
+  lightRange: 20
+  lightShadows: false
+  position:
+    x: -3.30000019
+    y: 7.44013834
+    z: -17.9899979
+  rotation:
+    x: 0
+    y: 0
+    z: 272.145416
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+targets:
+- targetType: DBoy
+  position:
+    x: -12.1765518
+    y: -4.97100019
+    z: 1.24000168
+  rotation:
+    x: 0
+    y: 270
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- targetType: DBoy
+  position:
+    x: -9.18000031
+    y: -4.97100019
+    z: 1.24000168
+  rotation:
+    x: 0
+    y: 270
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+items:
+- itemType: Ammo9x19
+  canBePickedUp: false
+  physics: false
+  durabillity: 0
+  attachments: 0
+  position:
+    x: -12.8965588
+    y: -3.97100019
+    z: -10.2887344
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- itemType: Ammo12gauge
+  canBePickedUp: false
+  physics: false
+  durabillity: 0
+  attachments: 0
+  position:
+    x: -11.7105026
+    y: -3.97100019
+    z: -10.2643471
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- itemType: Ammo762x39
+  canBePickedUp: false
+  physics: false
+  durabillity: 0
+  attachments: 0
+  position:
+    x: -7.91696358
+    y: -3.97100019
+    z: -10.2572403
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- itemType: Ammo44cal
+  canBePickedUp: false
+  physics: false
+  durabillity: 0
+  attachments: 0
+  position:
+    x: -8.59612846
+    y: -3.97100019
+    z: -10.2551422
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- itemType: Ammo44cal
+  canBePickedUp: false
+  physics: false
+  durabillity: 0
+  attachments: 0
+  position:
+    x: -12.4328289
+    y: -3.97100019
+    z: -10.2127495
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+- itemType: Ammo556x45
+  canBePickedUp: false
+  physics: false
+  durabillity: 0
+  attachments: 0
+  position:
+    x: -10.4997435
+    y: -3.97100019
+    z: -10.2560158
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+workStations: []
+doors:
+- doorType: EZ
+  open: false
+  locked: false
+  health: 0
+  unDestroyable: false
+  update: false
+  updateFrequency: 0
+  position:
+    x: 5.22900009
+    y: -4.94799995
+    z: -34.5009995
+  rotation:
+    x: 0
+    y: 90.4760818
+    z: 0
+  scale:
+    x: 1.4163996
+    y: 1.08284044
+    z: 0.999999881
+  customAttributes:
+  - Button:2000
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
+

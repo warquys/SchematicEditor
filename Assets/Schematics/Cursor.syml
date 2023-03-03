@@ -1,10 +1,15 @@
 ﻿[Cursor]
-{
-iD: 0
 name: Cursor
-customAttributes: ::lcb::::rcb::
-primitiveObjects:
+id: 0
+customAttributes: []
+primitives:
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
   position:
     x: 0
     y: 0
@@ -17,14 +22,15 @@ primitiveObjects:
     x: 0.5
     y: 0.5
     z: 0.5
-  color:
-    r: 1
-    g: 1
-    b: 1
-    a: 1
   customAttributes:
   - ' Cursor:Center'
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: 0
     y: 0
@@ -37,13 +43,14 @@ primitiveObjects:
     x: 0.25
     y: 0.750000536
     z: 0.250000119
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
-    r: 0
+    r: 1
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: -0.199999809
     y: 0
@@ -56,14 +63,15 @@ primitiveObjects:
     x: 0.75
     y: 0.5
     z: 0.25
-  color:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
   customAttributes:
   - Cursor:X-1
 - primitiveType: Cylinder
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
   position:
     x: 0
     y: 0
@@ -76,13 +84,14 @@ primitiveObjects:
     x: 0.25
     y: 0.75
     z: 0.25
+  customAttributes: []
+- primitiveType: Cylinder
+  physics: false
   color:
     r: 0
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cylinder
   position:
     x: 0
     y: 0
@@ -95,13 +104,14 @@ primitiveObjects:
     x: 0.250000119
     y: 0.750000536
     z: 0.25
+  customAttributes: []
+- primitiveType: Cube
+  physics: false
   color:
-    r: 0
+    r: 1
     g: 0
     b: 0
     a: 1
-  customAttributes: ::lcb::::rcb::
-- primitiveType: Cube
   position:
     x: 0.199999809
     y: 0
@@ -114,14 +124,15 @@ primitiveObjects:
     x: 0.75
     y: 0.5
     z: 0.25
-  color:
-    r: 1
-    g: 0
-    b: 0
-    a: 1
   customAttributes:
   - Cursor:X+1
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 1
+    b: 0
+    a: 1
   position:
     x: -0.75
     y: 0.200000003
@@ -134,14 +145,15 @@ primitiveObjects:
     x: 0.75
     y: 0.5
     z: 0.25
+  customAttributes:
+  - Cursor:Y+1
+- primitiveType: Cube
+  physics: false
   color:
     r: 0
     g: 1
     b: 0
     a: 1
-  customAttributes:
-  - Cursor:Y+1
-- primitiveType: Cube
   position:
     x: 0.75
     y: -0.200000003
@@ -154,14 +166,15 @@ primitiveObjects:
     x: 0.75
     y: 0.5
     z: 0.25
-  color:
-    r: 0
-    g: 1
-    b: 0
-    a: 1
   customAttributes:
   - Cursor:Y-1
 - primitiveType: Cube
+  physics: false
+  color:
+    r: 0
+    g: 0
+    b: 1
+    a: 1
   position:
     x: 0
     y: -0.75
@@ -174,14 +187,15 @@ primitiveObjects:
     x: 0.75
     y: 0.5
     z: 0.25
+  customAttributes:
+  - Cursor:Z+1
+- primitiveType: Cube
+  physics: false
   color:
     r: 0
     g: 0
     b: 1
     a: 1
-  customAttributes:
-  - Cursor:Z+1
-- primitiveType: Cube
   position:
     x: 0
     y: 0.75
@@ -194,15 +208,18 @@ primitiveObjects:
     x: 0.75
     y: 0.5
     z: 0.25
-  color:
-    r: 0
-    g: 0
-    b: 1
-    a: 1
   customAttributes:
   - Cursor:Z-1
-lightObjects:
-- position:
+lights:
+- color:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  lightIntensity: 2
+  lightRange: 1.5
+  lightShadows: true
+  position:
     x: -0.199999809
     y: 0
     z: -0.75
@@ -214,7 +231,8 @@ lightObjects:
     x: 1
     y: 1
     z: 1
-  color:
+  customAttributes: []
+- color:
     r: 1
     g: 0
     b: 0
@@ -222,8 +240,7 @@ lightObjects:
   lightIntensity: 2
   lightRange: 1.5
   lightShadows: true
-  customAttributes: ::lcb::::rcb::
-- position:
+  position:
     x: 0.199999809
     y: 0
     z: 0.75
@@ -235,16 +252,16 @@ lightObjects:
     x: 1
     y: 1
     z: 1
-  color:
-    r: 1
-    g: 0
+  customAttributes: []
+- color:
+    r: 0
+    g: 1
     b: 0
     a: 1
   lightIntensity: 2
   lightRange: 1.5
   lightShadows: true
-  customAttributes: ::lcb::::rcb::
-- position:
+  position:
     x: -0.75
     y: 0.200000003
     z: 0
@@ -256,7 +273,8 @@ lightObjects:
     x: 1
     y: 1
     z: 1
-  color:
+  customAttributes: []
+- color:
     r: 0
     g: 1
     b: 0
@@ -264,8 +282,7 @@ lightObjects:
   lightIntensity: 2
   lightRange: 1.5
   lightShadows: true
-  customAttributes: ::lcb::::rcb::
-- position:
+  position:
     x: 0.75
     y: -0.200000003
     z: 0
@@ -277,16 +294,16 @@ lightObjects:
     x: 1
     y: 1
     z: 1
-  color:
+  customAttributes: []
+- color:
     r: 0
-    g: 1
-    b: 0
+    g: 0.0588235296
+    b: 1
     a: 1
   lightIntensity: 2
   lightRange: 1.5
   lightShadows: true
-  customAttributes: ::lcb::::rcb::
-- position:
+  position:
     x: 0
     y: -0.75
     z: 0.200000003
@@ -298,16 +315,16 @@ lightObjects:
     x: 1
     y: 1
     z: 1
-  color:
+  customAttributes: []
+- color:
     r: 0
-    g: 0.0588235296
+    g: 0
     b: 1
     a: 1
   lightIntensity: 2
   lightRange: 1.5
   lightShadows: true
-  customAttributes: ::lcb::::rcb::
-- position:
+  position:
     x: 0
     y: 0.75
     z: -0.200000003
@@ -319,18 +336,15 @@ lightObjects:
     x: 1
     y: 1
     z: 1
-  color:
-    r: 0
-    g: 0
-    b: 1
-    a: 1
-  lightIntensity: 2
-  lightRange: 1.5
-  lightShadows: true
-  customAttributes: ::lcb::::rcb::
-targetObjects: ::lcb::::rcb::
-itemObjects: ::lcb::::rcb::
-workStationObjects: ::lcb::::rcb::
-doorObjects: ::lcb::::rcb::
-}
+  customAttributes: []
+targets: []
+items: []
+workStations: []
+doors: []
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
 

@@ -1,0 +1,58 @@
+﻿[Flame]
+name: Flame
+id: 10
+customAttributes: []
+primitives:
+- primitiveType: Cube
+  physics: false
+  color:
+    r: 1
+    g: 0.984313726
+    b: 0.235294119
+    a: 0.411764711
+  position:
+    x: 0
+    y: 0
+    z: 0
+  rotation:
+    x: 23.1946125
+    y: 16.7677708
+    z: 37.4164238
+  scale:
+    x: -1
+    y: -0.99999994
+    z: -1
+  customAttributes: []
+lights:
+- color:
+    r: 1
+    g: 0.984313726
+    b: 0.235294119
+    a: 1
+  lightIntensity: 1
+  lightRange: 2
+  lightShadows: false
+  position:
+    x: 0
+    y: 0
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  customAttributes: []
+targets: []
+items: []
+workStations: []
+doors: []
+customObjects: []
+ragdolls: []
+dummies: []
+generators: []
+lockers: []
+oldGrenades: []
+
